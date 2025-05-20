@@ -71,7 +71,7 @@ async function nginx() {
 	<head>
 	<title>Welcome to nginx!</title>
 	<meta name="google-adsense-account" content="ca-pub-4304258907912093">
-	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4304258907912093"crossorigin="anonymous"></script>		<style>
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4304258907912093" crossorigin="anonymous"></script>
 	<style>
 		body {
 			width: 35em;
@@ -106,7 +106,7 @@ async function searchInterface() {
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="google-adsense-account" content="ca-pub-4304258907912093">
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4304258907912093"crossorigin="anonymous"></script>		<style>
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4304258907912093" crossorigin="anonymous"></script>
 		<style>
 		:root {
 			--github-color: rgb(27,86,198);
