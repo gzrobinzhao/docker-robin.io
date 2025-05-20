@@ -5,7 +5,17 @@ let hub_host = 'registry-1.docker.io';
 // Docker认证服务器地址
 const auth_url = 'https://auth.docker.io';
 
-let 屏蔽爬虫UA = ['netcraft'];
+let 屏蔽爬虫UA = ['netcraft']; // 确保这里不包含 'google', 'googlebot' 等
+
+// 如果需要，可以添加一个允许 Google 爬虫的条件
+if (userAgent && (userAgent.includes('google') || userAgent.includes('googlebot'))) {
+  // 允许 Google 爬虫访问
+  return new Response(await searchInterface(), {
+    headers: {
+      'Content-Type': 'text/html; charset=UTF-8',
+    },
+  });
+}
 
 // 根据主机名选择对应的上游地址
 function routeByHosts(host) {
