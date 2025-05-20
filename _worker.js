@@ -107,6 +107,7 @@ async function searchInterface() {
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="google-adsense-account" content="ca-pub-4304258907912093">
 		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4304258907912093"crossorigin="anonymous"></script>		<style>
+		<style>
 		:root {
 			--github-color: rgb(27,86,198);
 			--github-bg-color: #ffffff;
